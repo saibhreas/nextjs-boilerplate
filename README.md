@@ -1,36 +1,117 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align='center'>
+  <a href="https://github.com/saibhreas">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white">
+  </a>  
+  <a href='https://www.linkedin.com/in/siobhanknuttel'>
+      <img src='https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue'>
+  </a>
+    <a href='https://www.upwork.com/freelancers/saibhreas'> 
+    <img src='https://img.shields.io/badge/UpWork-6FDA44?style=flat&logo=Upwork&logoColor=white' witth="45" height="20"> 
+  </a>
+  
+</p>
 
-## Getting Started
+# 
+Vite controlled REACT development environment app
+  
+<h3>Contributors:<h3>
 
-First, run the development server:
+<h6>Saibhreas: Siobhan Knuttel</h6>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### Email: sr@saibhreas.com
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Purpose: 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This is now a download of Vercel; nextjs boilerplate template.  Could not get the teaching module to deploy on Vercel' site.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+  
+## Table of Content
+  
+  1. [Description](##description)
+  2. [Installation](###instalation)
+  3. [Usage](###usage)
+  4. [Contributing](###contributing)
+  5. [Technologies](###technologies)
+  6. [Questions:(###questions)]
+  
+## Description
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Basic front end App.  Just a sandbox for me to get better acquainted with NextJS, React dynamic page development, Tailwinds CSS...
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Like every video before and I think going forward, the technology has outpaced the updates.  This weeks mismatch entails:
 
-## Deploy on Vercel
+I think the following is the bet course for cloning app from github (where vercel places it) then clone local for development.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Open terminal in local directory.  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    pnpm init
+    git clone "http:fdffdff"
+
+    cd app-dir
+    pnpm install 
+
+    pnpm run dev
+
+
+this is fixed for now by :
+PS E:\Prog Environ\Basics\NextJS\Next1\nextjs-dashboard> set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+PS E:\Prog Environ\Basics\NextJS\Next1\nextjs-dashboard> Get-ExecutionPolicy
+RemoteSigned
+PS E:\Prog Environ\Basics\NextJS\Next1\nextjs-dashboard> 
+PS E:\Prog Environ\Basics\NextJS\Next1\nextjs-dashboard> Get-ExecutionPolicy -list
+
+        Scope ExecutionPolicy
+        ----- ---------------
+MachinePolicy       Undefined
+   UserPolicy       Undefined
+      Process       Undefined
+  CurrentUser    RemoteSigned
+ LocalMachine       Undefined
+
+
+PS E:\Prog Environ\Basics\NextJS\Next1\nextjs-dashboard>
+
+### Run instructions for basic build from Next JS
+
+  pnpm run dev
+    Starts the development server.
+
+  pnpm run build
+    Builds the app for production.
+
+  pnpm start
+    Runs the built app in production mode.
+
+We suggest that you begin by typing:
+
+  cd nextjs-dashboard
+  pnpm run dev
+
+### Licence: undefined
+
+### Installation
+  
+### Usage
+
+### Technologies
+* Next JS
+* React
+* Type Script
+* Node JS
+* VS Code
+
+### Images
+
+### Links
+
+
+### Notes
+
+ Placeholders make things easier like  https://mockapi.io/
+
+ https://www.youtube.com/watch?v=I2UBjN5ER4s&t=2414s
+
+ https://www.youtube.com/watch?v=vwSlYG7hFk0
+ 
