@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
-import { Space_Grotesk } from "next/font/google";
+import { Raleway} from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 
 
 
-const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
+const raleway = Raleway({ subsets: ["latin"] });
+
 
 export const metadata: Metadata = {
   title: "Saibhreas Portfolio",
@@ -19,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={spaceGrotesk.className}>
+      <body className={raleway.className}>
         <ThemeProvider
             attribute="class"
             defaultTheme="dark"
