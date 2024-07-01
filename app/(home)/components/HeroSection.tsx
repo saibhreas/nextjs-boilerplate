@@ -4,7 +4,7 @@ import { MdEmail } from "react-icons/md";
 
 export default function HeroSection() {
   return (
-    <div className=' min-h-[60vh] flex flex-col-reverse gap-12 lg:flex-row items-center justify-between'>
+    <div className=' min-h-[60vh] flex flex-col-reverse gap-12  lg:gap-10 lg:flex-row items-center justify-between'>
       <div className='space-y-10 text-center lg:text-left'>
         <h1 className='text-4xl lg:text-7xl font-bold'>
           This is my Hero -- a section for change!
@@ -30,17 +30,19 @@ export default function HeroSection() {
       </div>
       <div>
 
-        <div className='w-72 h-72 spacey-3 -rotate-[36deg]'>
-          <div className='flex gap-3 translate-x-8'>
+        <div className='w-72 h-72 spacey-3 -rotate-[25deg] relative p-2'>
+          <div className='flex gap-5 translate-x-8'>
             <div className=' w-32 h-32 rounded-full bg-amber-300 '></div>
-            <div className=' w-32 h-32 rounded-2xl bg-cyan-500 '></div>
+            <div className=' w-32 h-32 rounded-3xl bg-cyan-500 '></div>
           </div>
 
-          <div className='flex gap-3 -translate-x-8'>
-            <div className=' w-32 h-32 rounded-2xl bg-cyan-600'></div>
+          <div className='flex gap-5 -translate-x-8'>
+            <div className=' w-32 h-32 rounded-3xl bg-cyan-600'></div>
             <div className=' w-32 h-32 rounded-full bg-amber-300'></div>
           </div>
+          <div className='glow absolute top-[40%] right-1/2 -z-10'>
 
+          </div>
           
 
 
