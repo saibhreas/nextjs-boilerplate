@@ -7,7 +7,7 @@ export default function HeroSection() {
     <div className=' min-h-[60vh] flex flex-col-reverse gap-12 lg:flex-row items-center justify-between'>
       <div className='space-y-10 text-center lg:text-left'>
         <h1 className='text-4xl lg:text-7xl font-bold'>
-          This is my hero here section!
+          This is my Hero -- a section for change!
           <br />
           <span className=" underline underline-offset-10 decoration-amber-400 text-3xl padding-top: 15px padding-bottom: 15px">
             {"This is where Snappy Jargon sits."}
@@ -16,13 +16,13 @@ export default function HeroSection() {
  
        <p className="; md:w-96 text-lg  text-gray-300">
           {
-            "Here you will find the elucid ramblings of Lorum and Epsum.  The two authors are better known for their prolific Dadaesque art installations on web apps the world over.  However, here you will find a more readable prose (sidebar- not much more meaningful though)."
+            "Here you will find the elucidic ramblings of Lorum and Epsum.  The two authors are better known for their prolific Dadaesque art installations on web apps the world over.  However, here you will find a more readable prose (sidebar- not much more meaningful though)."
           }
         </p>
 
-        <Link href="mailto:fullstack@saibhreas.com" className='inline-block'>
+        <Link href="mailto:fullstack@saibhreas.com" className='inline-block group'>
           <div >
-            <h1 className='text-2xl font bold hover:text-cyan-500 '> Contact </h1>
+            <h1 className='text-2xl font bold group-hover:text-cyan-500 '> Contact </h1>
             <div className=' w-40 h-2 bg-amber-400 rounded-full'></div>
             <div className=' w-40l h-2 bg-cyan-400 rounded-full translate-x-3'></div>
           </div>
