@@ -6,17 +6,18 @@ export default function HeroSection() {
   return (
     <div className=' min-h-[60vh] flex flex-col-reverse gap-12  lg:gap-10 lg:flex-row items-center justify-between'>
       <div className='space-y-10 text-center lg:text-left'>
-        <h1 className='text-4xl lg:text-7xl font-bold'>
-          This is my Hero -- a section for change!
+        <h1 className='text-3xl lg:text-7xl font-bold italic'>
+          Welcome 
           <br />
           <span className=" underline underline-offset-10 decoration-amber-400 text-3xl padding-top: 15px padding-bottom: 15px">
-            {"This is where Snappy Jargon sits."}
+            {"This is an incremental build of a Next JS full-stack."}
           </span>
         </h1>
  
        <p className="; md:w-96 text-lg  text-gray-300">
           {
-            "Here you will find the elucidic ramblings of Lorum and Epsum.  The two authors are better known for their prolific Dadaesque art installations on web apps the world over.  However, here you will find a more readable prose (sidebar- not much more meaningful though)."
+            "This project is a sandbox to learn the Next JS framework combined with Vercel.  This is the beginning stages of development of this basic boilerplate into a blog site with an AI Chat bot integrated down the line."
+            
           }
         </p>
 
