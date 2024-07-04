@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
-
+import Image from 'next/image'
+import logo from '../components/assets/Mono2Sabdark.png'
 
 import { SiLinkedin, SiGithub } from "react-icons/si";
 
@@ -20,9 +21,15 @@ export default function Navbar() {
   return (
 
     <nav className='py-10 flex justify-between item-center'>
-      <h1 className="text-2xl font-bold underline underline-offset-5 decoration-yellow-400 -rotate-2">
-        Saibhreas
-      </h1>
+      <div>
+        <Image
+          src={logo}
+          alt="Sab Logo"
+          width={100}
+          height={80}
+         />
+      </div>
+
       <div className=' flex items-center gap-5'>
         {socials.map((social, index)=>{
           const Icon = social.Icon
@@ -30,7 +37,7 @@ export default function Navbar() {
           return (
             <Link href={social.Link} 
               key={index} 
-              aria-label={social.label}
+              aria-label={social.Label}
               >
               <Icon className='w-5 h-5 hover:scale-125 transition-all'/>
             </Link>
