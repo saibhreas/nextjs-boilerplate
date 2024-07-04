@@ -45,6 +45,13 @@ This project originated on the  <a href='https://vercel.com/'> <strong>Vercel </
 
 It is an instance of clone Next.js basic boilerplate template.
 
+Problems with the build have been:
+
+![ScreenShot](./app/(home)/assets/Screen1.png)
+1.  The build was not working.  Developed a package-lock discrepency.  Finally buils a dupliate repo, then added the updates back into this repo.  Want t keep this one up online. 
+   
+2.  cannot get the updated main to update on the deployment.  I do not want to delete the deployment and start over, but as of now cannot find the disconnect between my push modifications and the production deployment.
+
 
 
 ### Run instructions for basic build from Next JS
