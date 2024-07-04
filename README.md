@@ -6,7 +6,7 @@
       <img src='https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue'>
   </a>
     <a href='https://www.upwork.com/freelancers/saibhreas'> 
-    <img src='https://img.shields.io/badge/UpWork-6FDA44?style=flat&logo=Upwork&logoColor=white' witth="45" height="20"> 
+    <img src='https://img.shields.io/badge/UpWork-6FDA44?style=flat&logo=Upwork&logoColor=white' with="45" height="20"> 
   </a>
   
 </p>
@@ -23,7 +23,8 @@ Vite controlled REACT development environment app
 
 ## Purpose: 
 
-This is now a download of Vercel; nextjs boilerplate template.  Could not get the teaching module to deploy on Vercel' site.
+This project is a sandbox to learn the Next JS framework combined with Vercel.  This is the beginning stages of development of this basic boilerplate into a blog site with a Chat bot integrated down the line.
+The goal is to develop a fluency in the Next JS framework, and see if its present state reduces the need for multiple systems in order to make it a functioning full stack.
 
 
   
@@ -40,56 +41,20 @@ This is now a download of Vercel; nextjs boilerplate template.  Could not get th
 
 Basic front end App.  Just a sandbox for me to get better acquainted with NextJS, React dynamic page development, Tailwinds CSS...
 
-Like every video before and I think going forward, the technology has outpaced the updates.  This weeks mismatch entails:
+This project originated on the  <a href='https://vercel.com/'> <strong>Vercel </strong></a>
 
-I think the following is the bet course for cloning app from github (where vercel places it) then clone local for development.
-
-Open terminal in local directory.  
-
-    pnpm init
-    git clone "http:fdffdff"
-
-    cd app-dir
-    pnpm install 
-
-    pnpm run dev
+It is an instance of clone Next.js basic boilerplate template.
 
 
-this is fixed for now by :
-PS E:\Prog Environ\Basics\NextJS\Next1\nextjs-dashboard> set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-PS E:\Prog Environ\Basics\NextJS\Next1\nextjs-dashboard> Get-ExecutionPolicy
-RemoteSigned
-PS E:\Prog Environ\Basics\NextJS\Next1\nextjs-dashboard> 
-PS E:\Prog Environ\Basics\NextJS\Next1\nextjs-dashboard> Get-ExecutionPolicy -list
-
-        Scope ExecutionPolicy
-        ----- ---------------
-MachinePolicy       Undefined
-   UserPolicy       Undefined
-      Process       Undefined
-  CurrentUser    RemoteSigned
- LocalMachine       Undefined
-
-
-PS E:\Prog Environ\Basics\NextJS\Next1\nextjs-dashboard>
 
 ### Run instructions for basic build from Next JS
 
-  pnpm run dev
-    Starts the development server.
+ 1. Clone the repo
+ 2. Add dependencies (review package.json)
+ 3. Begin local editing
+ 4. pnpm run dev
 
-  pnpm run build
-    Builds the app for production.
-
-  pnpm start
-    Runs the built app in production mode.
-
-We suggest that you begin by typing:
-
-  cd nextjs-dashboard
-  pnpm run dev
-
-### Licence: undefined
+### License: undefined
 
 ### Installation
   
